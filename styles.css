@@ -1,7 +1,10 @@
 ﻿body {
-    background-image: url(image.jpg);
+    background-image: url(image2.jpg);
     font-family: "Roboto", sans-serif;
     color: white;
+    max-width: 600px;
+    display: block;
+    margin: 40px auto;
 }
 
 a {
