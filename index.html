@@ -11,20 +11,23 @@
     
     <header>
         <form>
-            <input type="text" placeholder=" Enter a city" required />
-            <input type="submit" value="Search" />
+            <input class="search-form-input" type="text" placeholder=" Enter a city" required />
+            <input class="search-form-button" type="submit" value="Search" />
         </form>
     </header>
     <main>
-        <div>
-            <h1>Sandton</h1>
-            <p>
+        <div class="weather-app-data">
+            <h1 class="weather-app-city">Sandton</h1>
+            <p class="weather-app-details ">
                 Monday 14:49, cloudy
                 <br />
-                Humidity: 66%, Wind: 3.13km/h
+                Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
             </p>
         </div>
-        <div>🌤️ 18°C</div>
+        <div class="weather-app-temperature-container"><span class="weather-app-icon">🌤️</span> 
+        <span class="weather-app-temperature">18</span>
+        <span class="weatehr-app-unit">°C</span>
+        </div>
 
     </main>
     <footer>
